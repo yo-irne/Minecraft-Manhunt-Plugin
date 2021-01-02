@@ -1,0 +1,12 @@
+name: ManhuntPlugin
+version: @version@
+main: me.irnewastaken.manhuntplugin.ManhuntPlugin
+api-version: 1.16
+authors: [ Irne ]
+depend:
+  - Kotlin
+commands:
+  hunter:
+    usage: /hunter [add | remove | list | clear] Player
+  speedrunner:
+    usage: /speedrunner [add | remove | list | clear] Player
